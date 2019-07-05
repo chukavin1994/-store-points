@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 header {
 	background: #4cb1ca;
@@ -188,6 +189,32 @@ h2>span {
 	color: #464148;
 	font-weight: 600;
 }
+.thumbnail_item {
+	position: relative;
+}
+.thumbnail_item>span {
+	font-size: 18px;
+	position: absolute;
+	left: 40px;
+	font-family: 'Indie Flower', cursive;
+	text-transform: uppercase;
+	color: #4cb1ca;
+	font-weight: 1000;
+}
+.thumbnail_item:before {
+	content: "";
+	position: absolute;
+	left: 15px;
+	top: 0;
+   	width: 80px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transform: skew(30deg);
+    -moz-transform: skew(30deg);
+    -o-transform: skew(30deg);
+    transform: skew(132deg)
+}
+
 .thumbnail .btn {
 	width: 45px;
 	height: 45px;
